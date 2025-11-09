@@ -1,0 +1,34 @@
+/* Custom style for Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: rgba(0, 0, 0, 0.4);  /* Darker background for better contrast */
+  color: white;  /* Text color */
+  font-size: 1.5rem;  /* Size of the icon */
+  padding: 12px;  /* Space inside the button */
+  border-radius: 50%;  /* Circular shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;  /* Smooth transition for hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #E58411;  /* Change to primary color on hover */
+  transform: scale(1.1);  /* Slightly increase size on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);  /* Larger shadow on hover */
+}
+
+/* Custom arrows inside buttons */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.5rem;  /* Larger arrows for better visibility */
+  color: white;
+  font-weight: bolder;
+  content: '←';  /* Left arrow */
+}
+
+.swiper-button-next::after {
+  content: '→';  /* Right arrow */
+}

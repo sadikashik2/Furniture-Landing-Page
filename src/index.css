@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark-theme{
+  background:rgb(22, 22, 22);
+  color: white;
+}
+
+:root {
+   --color-primary: #E58411;
+   --color-secondary: #1E1E1E;
+   --bg-color-secondary: #F7F7F7;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--bg-color-secondary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.font-Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
