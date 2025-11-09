@@ -1,7 +1,7 @@
 import React from "react";
 import aboutBgImg from "../../assets/aboutBG.jpg";
 import Whychoose from "../Home/Whychoose";
-import Testimonials from "../home/Testimonials";
+import Testimonials from "../Home/Testimonials";
 
 const About = () => {
   return (
