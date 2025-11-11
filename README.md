@@ -3,6 +3,7 @@
 A **modern, responsive furniture landing page** built with **React**, **Vite**, and **Tailwind CSS**.
 
 -------
+**Live Demo:**  https://furniture-landing-page-zeta.vercel.app/
 
 ### Features
 
